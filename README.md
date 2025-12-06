@@ -1,75 +1,55 @@
-# BKalafat Portfolio
+# Hi there, I’m Burak Kalafat! 👋
 
-A modern React + Vite portfolio website for bkalafat.com
+I’m a **Senior .NET Backend Engineer** from Trabzon, Turkey, building reliable and scalable software for the banking and fintech world since 2013.
 
-## Features
+---
 
-- ⚡ **Fast** - Built with Vite for instant dev server and optimized production builds
-- 🎨 **Modern UI** - Clean, responsive design with Bento grid layout
-- 🚀 **Easy Deployment** - One-click deployment to Cloudflare Pages
-- 📱 **Mobile Friendly** - Responsive design that works on all devices
-- 🔐 **Secure** - HTTPS/SSL by default with Cloudflare
+## 👨‍💻 About Me
 
-## Project Structure
+* **12+ years** crafting back‑end systems in high‑traffic, high‑security environments.
+* Specialist in **.NET (Framework & 8)**, **Clean / Hexagonal Architecture**, **DDD**, and **microservices**.
+* Proven track record modernising monoliths (COBOL, WPF, WinForms) into **cloud‑ready, containerised services**.
+* Passionate about **Azure**, **CI/CD with Azure DevOps & GitHub Actions**, and automated testing.
+* Currently migrating legacy mainframe logic to .NET 4.8.2 and designing AI‑powered help‑desk solutions for the Turkish financial sector.
+* Avid learner exploring **AI/ML**, **Blazor WASM/MAUI**, and **event‑driven systems**.
 
-```
-src/
-├── components/
-│   ├── BentoGrid.jsx    # Main grid layout component
-│   ├── Hero.jsx         # Hero/landing section
-│   ├── ProjectCard.jsx  # Project showcase cards
-│   ├── ProjectHub.jsx   # Project gallery/hub
-│   └── Footer.jsx       # Footer component
-├── App.jsx              # Main app component
-├── main.jsx             # Entry point
-└── index.css            # Global styles
-```
+---
 
-## Quick Start
+## 🛠 Tech Stack
 
-### Development
+| Domain                 | Tools & Technologies                                               |
+| ---------------------- | ------------------------------------------------------------------ |
+| **Languages**          | C# \| Java \| TypeScript \| SQL / PL‑SQL                           |
+| **Frameworks**         | ASP.NET Core \| Blazor \| WPF \| WinForms \| Entity Framework Core |
+| **Databases**          | MS SQL Server \| Oracle \| PostgreSQL                              |
+| **Messaging / Search** | Kafka \| RabbitMQ \| Elasticsearch                                 |
+| **Cloud & DevOps**     | Azure \| Docker \| Kubernetes \| Azure DevOps \| GitHub Actions    |
+| **Tooling**            | Git \| ReSharper \| SonarQube                                      |
 
-```bash
-# Install dependencies
-npm install
+---
 
-# Start dev server (http://localhost:5173)
-npm run dev
+## 🔭 Current Focus
 
-# Build for production
-npm run build
+* **Migrating** monolithic banking apps to **Clean‑Architecture‑based .NET 8 microservices**.
+* **Researching** AI‑driven chat‑bots and knowledge bases for customer service.
+* **Sharpening** frontend chops with **Blazor** and **modern web tooling**.
 
-# Preview production build locally
-npm run preview
+---
 
-# Lint code
-npm lint
-```
+## 🌱 Side Interests
 
-## 🚀 Deployment
+* 🤿 20+ logged scuba dives & counting.
+* 🎾 Tennis and VR boxing to stay active.
+* 🌨️ Love walking snowy mountain trails and deep‑breathing the fresh air.
 
-See **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** for complete step-by-step instructions to deploy to bkalafat.com.
+---
 
-**TL;DR:**
-1. Push code to GitHub
-2. Connect to Cloudflare Pages
-3. Add custom domain bkalafat.com
-4. Done! 🎉
+## 🤝 Let’s Connect
 
-## Technologies
+* 📧 **Email:** [burakkalafat89@gmail.com](mailto:burakkalafat89@gmail.com)
+* 💼 **LinkedIn:** [linkedin.com/in/bkalafat](https://linkedin.com/in/bkalafat)
+* 🗨️ Open to collaboration, mentorship, and exciting remote opportunities.
 
-- **React 19** - UI framework
-- **Vite 7** - Build tool and dev server
-- **CSS3** - Styling with custom components
-- **ESLint** - Code quality
+---
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Environment Setup
-
-No API keys or environment variables required for basic setup.
+> *“Any fool can write code ********that a computer can understand********. Good programmers write code that humans can understand.”*
