@@ -4,13 +4,15 @@ export default function Hero() {
     return (
         <section className="hero-section">
             <div className="hero-content">
-                <h1 className="hero-title animate-fade-in">
-                    Software Developer.
+                <p className="hero-greeting animate-fade-in mono">Hi, my name is</p>
+                <h1 className="hero-title animate-fade-in" style={{ animationDelay: '0.1s' }}>
+                    <span className="accent">Burak Kalafat.</span>
                     <br />
-                    Product Creator.
+                    I build digital products.
                 </h1>
-                <p className="hero-subtitle animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                    Building high-quality digital products with focus on usability and design.
+                <p className="hero-subtitle animate-fade-in" style={{ animationDelay: '0.2s' }}>
+                    Software Developer & Product Creator focused on building high-quality,
+                    user-centric applications and tools.
                 </p>
             </div>
         </section>

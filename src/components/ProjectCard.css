@@ -1,23 +1,27 @@
 .project-card {
     background-color: var(--bg-panel);
+    backdrop-filter: var(--backdrop-blur);
+    -webkit-backdrop-filter: var(--backdrop-blur);
     border-radius: var(--radius-lg);
-    padding: 1.5rem;
+    padding: 1.75rem;
     position: relative;
     display: flex;
     flex-direction: column;
     transition: var(--transition-fast);
-    border: 1px solid transparent;
+    border: 1px solid var(--border-subtle);
     overflow: hidden;
     height: 100%;
     cursor: pointer;
     text-decoration: none;
     color: inherit;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
 }
 
 .project-card:hover {
     background-color: var(--bg-panel-hover);
     transform: scale(1.02);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
 }
 
 .card-content {
@@ -31,44 +35,54 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .card-icon {
-    font-size: 2rem;
+    font-size: 2.25rem;
+    filter: grayscale(100%);
+    transition: var(--transition-fast);
+}
+
+.project-card:hover .card-icon {
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
 
 .card-arrow {
-    background: #3a3a3c;
-    width: 32px;
-    height: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
     color: #fff;
-    opacity: 0;
+    opacity: 0.5;
     transform: rotate(45deg);
     transition: var(--transition-fast);
 }
 
 .project-card:hover .card-arrow {
+    background: #fff;
+    color: #000;
     opacity: 1;
     transform: rotate(0deg);
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.4rem;
     color: #fff;
+    letter-spacing: -0.01em;
 }
 
 .card-desc {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--color-text-sec);
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 /* Sizes for Bento Grid */
